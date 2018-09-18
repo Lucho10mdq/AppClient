@@ -9,9 +9,10 @@ namespace Model
     public class Client
     {
         int clientId;
-        string name, lastname, dni, address, fechaNacimiento;
+        string name, lastname, dni, address;
+        DateTime    fechaNacimiento;
 
-        public Client(string name, string lastname, string dni, string address, string fechaNacimiento)
+        public Client(string name, string lastname, string dni, string address, DateTime fechaNacimiento)
         {
             this.name = name;
             this.lastname = lastname;
@@ -59,7 +60,7 @@ namespace Model
             }
         }
 
-        public string FechaNacimiento
+        public DateTime FechaNacimiento
         {
             get
             {

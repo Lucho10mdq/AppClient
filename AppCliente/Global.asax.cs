@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Security;
 using System.Web.SessionState;
+using Service;
 
 namespace AppCliente
 {
@@ -12,12 +13,13 @@ namespace AppCliente
 
         protected void Application_Start(object sender, EventArgs e)
         {
-
+            
         }
 
         protected void Session_Start(object sender, EventArgs e)
         {
-
+            Session["userList"] = new ServiceUser();
+            Session["clientList"] = new ServiceClient();
         }
 
         protected void Application_BeginRequest(object sender, EventArgs e)

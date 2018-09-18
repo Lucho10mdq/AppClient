@@ -31,3 +31,42 @@ c:\users\hilet.hilet\documents\visual studio 2015\Projects\AppCliente\AppCliente
 c:\users\hilet.hilet\documents\visual studio 2015\Projects\AppCliente\AppCliente\obj\Debug\AppCliente.csprojResolveAssemblyReference.cache
 c:\users\hilet.hilet\documents\visual studio 2015\Projects\AppCliente\AppCliente\obj\Debug\AppCliente.dll
 c:\users\hilet.hilet\documents\visual studio 2015\Projects\AppCliente\AppCliente\obj\Debug\AppCliente.pdb
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\bin\ApplicationInsights.config
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\bin\roslyn\csc.exe
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\bin\roslyn\vbc.exe
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\bin\roslyn\VBCSCompiler.exe
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\bin\AppCliente.dll.config
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\bin\AppCliente.dll
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\bin\AppCliente.pdb
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\bin\Microsoft.AI.Web.dll
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\bin\Microsoft.ApplicationInsights.dll
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\bin\Microsoft.AI.Web.xml
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\bin\Microsoft.ApplicationInsights.xml
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\obj\Debug\AppCliente.csprojResolveAssemblyReference.cache
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\obj\Debug\AppCliente.dll
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\obj\Debug\AppCliente.pdb
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\bin\Model.dll
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\bin\Repository.dll
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\bin\Service.dll
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\bin\Model.pdb
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\bin\Repository.pdb
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\AppCliente\bin\Service.pdb

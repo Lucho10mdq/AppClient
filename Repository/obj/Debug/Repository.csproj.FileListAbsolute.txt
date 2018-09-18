@@ -1,0 +1,7 @@
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\Repository\bin\Debug\Repository.dll
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\Repository\bin\Debug\Repository.pdb
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\Repository\bin\Debug\Model.dll
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\Repository\bin\Debug\Model.pdb
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\Repository\obj\Debug\Repository.csprojResolveAssemblyReference.cache
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\Repository\obj\Debug\Repository.dll
+C:\Users\SER\Documents\Practica Profesional\Web\AppClient\Repository\obj\Debug\Repository.pdb

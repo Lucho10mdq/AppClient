@@ -9,6 +9,6 @@ namespace Repository
 {
     interface IUserRepository
     {
-       User GetUserByEmail(string dni);
+       User GetUserByEmail(string email, string password);
     }
 }

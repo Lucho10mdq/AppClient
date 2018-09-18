@@ -41,6 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Repositories\ClienteRepository.cs" />
+    <Compile Include="Interface\IClienteInterface.cs" />
     <Compile Include="Interface\IUserRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
@@ -49,10 +51,6 @@
     <ProjectReference Include="..\Model\Model.csproj">
       <Project>{86752d1c-71eb-4099-a71c-cb5e64e337a3}</Project>
       <Name>Model</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Service\Service.csproj">
-      <Project>{736c2878-76a3-4900-9075-2cac0794d327}</Project>
-      <Name>Service</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
