@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Modify.aspx.cs" Inherits="AppCliente.Modify" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true"  CodeBehind="Modify.aspx.cs" Inherits="AppCliente.Modify" %>
 
 <!DOCTYPE html>
 
@@ -60,6 +60,7 @@
               <a class="navbar-brand" href="Add.aspx"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Agregar Clientes</a>  
               <a class="navbar-brand" href="List.aspx"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>Listado de Clientes</a>
               <a class="navbar-brand" href="Search.aspx"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>Buscar Cliente</a>
+                 <a class="navbar-brand" href="TouristPackage.aspx"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>Paquete Turistico</a>
               <a class="navbar-brand" href="Login.aspx"><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span>Salir</a>  
             </div>
           </div>
@@ -76,9 +77,11 @@
                       <input runat="server" id="txtDom" name="txtDom" placeholder="Domicilio" class="form-control"  type="text">
                       <br />
                       <input runat="server" id="txtBirthdate" name="txtBirthdates" placeholder="Email" class="form-control"  type="text">
+                       
                       <br />
-                      <asp:Button class="btn btn-danger" ID="btnGuardar" runat="server" Text="Guardar" OnClick="btnGuardar_Click" />
+                      <asp:Button ID="btnSave" runat="server" OnClick="Button1_Click" Text="Guardar" class="btn btn-danger" />
                 </div> 
+                
             </div>
         </div>
    </div>

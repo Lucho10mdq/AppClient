@@ -19,6 +19,7 @@ namespace AppCliente
         User oUser;
         protected void Page_Load(object sender, EventArgs e)
         {
+          
             if (Session["login"] == null)
                 Response.Redirect("login.aspx");
             else
@@ -37,19 +38,38 @@ namespace AppCliente
             }
             else
             {
-                txtName.Value = oClient.Name;
-                txtSurname.Value = oClient.Lastname;
-                txtDom.Value = oClient.Address;
-                txtBirthdate.Value = Convert.ToString(oClient.FechaNacimiento);
-                //Session.Contents.Remove("dni");
+                if (IsPostBack == true)
+                {
+                    dni = (string)Session["dni"];
+                    ClientList = (ServiceClient)Session["clientList"];
+                    oClient = ClientList.GetByDni(dni);
+                }
+                else
+                {
+                    txtName.Value = oClient.Name;
+                    txtSurname.Value = oClient.Lastname;
+                    txtDom.Value = oClient.Address;
+                    txtBirthdate.Value = Convert.ToString(oClient.FechaNacimiento);
+                    
+                }
             } 
         }
 
         protected void btnGuardar_Click(object sender, EventArgs e)
         {
+            
             DateTime birthdate = Convert.ToDateTime(txtBirthdate.Value);
-            string name = txtName.Value;
+            string name = Request["txtName"];
             ClientList.Modify(name, txtSurname.Value, dni, txtDom.Value, birthdate);
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+
+             DateTime birthdate = Convert.ToDateTime(txtBirthdate.Value);
+             string name = Request["txtName"];
+             ClientList.Modify(txtName.Value, txtSurname.Value, dni, txtDom.Value, birthdate);
+             
         }
     }
 }

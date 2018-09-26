@@ -41,6 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Interface\IPackage.cs" />
+    <Compile Include="Repositories\PackageRepository.cs" />
     <Compile Include="Repositories\ClienteRepository.cs" />
     <Compile Include="Interface\IClienteInterface.cs" />
     <Compile Include="Interface\IUserRepository.cs" />

@@ -10,5 +10,8 @@ namespace Repository
     interface IUserRepository
     {
        User GetUserByEmail(string email, string password);
+       int AddUser(User oUser);
+       List<User> GetUser();
+
     }
 }

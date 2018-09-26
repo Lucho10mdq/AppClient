@@ -13,7 +13,7 @@ using System.Data.SqlTypes;
 
 namespace Repository
 {
-    public class UserRepository:Singleton<UserRepository>,IUserRepository
+    public class UserRepository: Singleton<UserRepository>,IUserRepository
     {
         private List<User> UserList = new List<User>();
         static UserRepository instance = null;
@@ -53,9 +53,26 @@ namespace Repository
             dn.Close();
             conexion.Close();
             return oUser;
+        }
 
+        public int AddUser(User oUser)
+        {
+             conexion.Open();
+             SqlCommand c = conexion.CreateCommand();
+             c.CommandType = CommandType.StoredProcedure;
+             c.CommandText = "Add_User";
+             c.Parameters.AddWithValue("name", oUser.Name);
+             c.Parameters.AddWithValue("email", oUser.Email);
+             c.Parameters.AddWithValue("password", oUser.Password);
+             c.Parameters.AddWithValue("activo", oUser.Activo);
+             int Affecterows = c.ExecuteNonQuery();
+            conexion.Close();
+            return Affecterows;
+        }
 
-
+        public List<User> GetUser()
+        {
+            throw new NotImplementedException();
         }
     }
 }

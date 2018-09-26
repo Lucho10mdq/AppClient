@@ -46,6 +46,7 @@ namespace Repository
             c.CommandText = "Get_Clients";
             SqlDataReader dn = c.ExecuteReader();
             c.Prepare();
+            ClientList.Clear();
             while (dn.Read())
             {
                 string name = dn.GetString(1);

@@ -36,5 +36,17 @@ namespace Service
             }
             return oUser; 
         }
+
+        public bool AddUser(string name,string email,string password)
+        {
+            var result = false;
+            if (UserList.GetUserByEmail(email, password) == null)
+            {
+                User oUser = new User(name, email, password, true);
+                UserList.AddUser(oUser);
+                result = true;
+            }
+            return result;
+        }
     }
 }

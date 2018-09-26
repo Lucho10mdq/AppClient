@@ -8,7 +8,7 @@ namespace Model
 {
     public class Client
     {
-        int clientId;
+        private int clientId;
         string name, lastname, dni, address;
         DateTime    fechaNacimiento;
 

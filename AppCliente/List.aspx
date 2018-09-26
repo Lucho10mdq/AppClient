@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="List.aspx.cs" Inherits="AppCliente.List" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" EnableViewstate = "false" CodeBehind="List.aspx.cs" Inherits="AppCliente.List" %>
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -59,6 +59,7 @@
               <a class="navbar-brand" href="Add.aspx"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Agregar Clientes</a>  
               <a class="navbar-brand" href="List.aspx"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>Listado de Clientes</a>
               <a class="navbar-brand" href="Search.aspx"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>Buscar Cliente</a>
+                 <a class="navbar-brand" href="TouristPackage.aspx"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>Paquete Turistico</a>
               <a class="navbar-brand" href="Login.aspx"><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span>Salir</a>  
             </div>
           </div>
@@ -67,6 +68,7 @@
             <br />
             <div class="col-md-12 col-xs-12">
                 <asp:GridView ID="GridClientes" runat="server" class="table table-striped text-centered">
+                  
                 </asp:GridView>
             </div>
          </div>

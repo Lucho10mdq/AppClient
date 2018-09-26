@@ -20,6 +20,7 @@ namespace AppCliente
         {
             Session["userList"] = new ServiceUser();
             Session["clientList"] = new ServiceClient();
+            Session["packageList"] = new ServicePackage();
         }
 
         protected void Application_BeginRequest(object sender, EventArgs e)

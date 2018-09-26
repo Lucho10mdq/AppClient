@@ -14,6 +14,8 @@ namespace AppCliente
         string name;
         User oUser;
         ServiceClient ListClient;
+
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if (Session["login"] == null)
@@ -24,9 +26,9 @@ namespace AppCliente
                 lblUser.Text = oUser.Name;
             }
             ListClient = (ServiceClient)Session["clientList"];
-            GridClientes.DataSource = ListClient.GetAll();
-            GridClientes.DataBind();
 
-        }
+                GridClientes.DataSource = ListClient.GetAll();
+                GridClientes.DataBind();
+       }
     }
 }

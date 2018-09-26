@@ -54,11 +54,11 @@
         <nav class="navbar navbar-default">
           <div class="container-fluid">
             <div class="navbar-header">
-              <a class="navbar-brand" href="#">
+              <a class="navbar-brand" href="Login.aspx">
                <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
               </a>
               <a class="navbar-brand">Bienvenidos</a>
-              <a class="navbar-brand" href="Registrarse.aspx"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Registrarse</a>  
+              <a class="navbar-brand" href="Register.aspx"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Registrarse</a>  
             </div>
           </div>
         </nav>
