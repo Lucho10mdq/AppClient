@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceBooking.cs" />
     <Compile Include="ServiceClient.cs" />
     <Compile Include="ServicePackage.cs" />
     <Compile Include="ServiceUser.cs" />
