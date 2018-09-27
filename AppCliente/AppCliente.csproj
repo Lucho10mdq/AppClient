@@ -96,6 +96,7 @@
   <ItemGroup>
     <Content Include="Add.aspx" />
     <Content Include="AddPackage.aspx" />
+    <Content Include="BookingAdd.aspx" />
     <Content Include="List.aspx" />
     <Content Include="ListPackage.aspx" />
     <Content Include="Main.aspx" />
@@ -135,6 +136,13 @@
     </Compile>
     <Compile Include="AddPackage.aspx.designer.cs">
       <DependentUpon>AddPackage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BookingAdd.aspx.cs">
+      <DependentUpon>BookingAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BookingAdd.aspx.designer.cs">
+      <DependentUpon>BookingAdd.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

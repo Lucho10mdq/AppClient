@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace AppCliente {
-    
-    
-    public partial class AddBooking {
-        
+namespace AppCliente
+{
+
+
+    public partial class BookingAdd
+    {
+
         /// <summary>
         /// control form1.
         /// </summary>
