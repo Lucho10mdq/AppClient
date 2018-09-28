@@ -7,3 +7,12 @@ C:\Users\SER\Documents\Practica Profesional\Web\AppClient\Service\bin\Debug\Repo
 C:\Users\SER\Documents\Practica Profesional\Web\AppClient\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
 C:\Users\SER\Documents\Practica Profesional\Web\AppClient\Service\obj\Debug\Service.dll
 C:\Users\SER\Documents\Practica Profesional\Web\AppClient\Service\obj\Debug\Service.pdb
+C:\Users\Lucho-Pc\Documents\Practica Profesional\Web\AppClient\Service\bin\Debug\Service.dll
+C:\Users\Lucho-Pc\Documents\Practica Profesional\Web\AppClient\Service\bin\Debug\Service.pdb
+C:\Users\Lucho-Pc\Documents\Practica Profesional\Web\AppClient\Service\bin\Debug\Model.dll
+C:\Users\Lucho-Pc\Documents\Practica Profesional\Web\AppClient\Service\bin\Debug\Repository.dll
+C:\Users\Lucho-Pc\Documents\Practica Profesional\Web\AppClient\Service\bin\Debug\Model.pdb
+C:\Users\Lucho-Pc\Documents\Practica Profesional\Web\AppClient\Service\bin\Debug\Repository.pdb
+C:\Users\Lucho-Pc\Documents\Practica Profesional\Web\AppClient\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\Lucho-Pc\Documents\Practica Profesional\Web\AppClient\Service\obj\Debug\Service.dll
+C:\Users\Lucho-Pc\Documents\Practica Profesional\Web\AppClient\Service\obj\Debug\Service.pdb
