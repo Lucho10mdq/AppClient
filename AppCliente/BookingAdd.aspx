@@ -69,7 +69,14 @@
           </div>
         </nav>
     </div>
-     
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="SelectCliente"></label>
+          <div class="col-md-4">
+            <select id="SelectCliente" name="SelectCliente" class="form-control" runat="server">
+            </select>
+          </div>
+        </div>
+
     </form>
     <br />
     <br />
