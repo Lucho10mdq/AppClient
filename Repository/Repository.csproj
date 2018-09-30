@@ -41,7 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="IBookingcs.cs" />
+    <Compile Include="Interface\IBookingcs.cs" />
     <Compile Include="Interface\IPackage.cs" />
     <Compile Include="Repositories\PackageRepository.cs" />
     <Compile Include="Repositories\ClienteRepository.cs" />

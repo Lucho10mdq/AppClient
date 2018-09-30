@@ -17,7 +17,7 @@ namespace Repository
     {
         private List<TouristPackage> ListPackage = new List<TouristPackage>();
         static PackageRepository instance = null;
-        SqlConnection conexion = new SqlConnection(@"Server=LAPTOP-4RC7FOER;Database=Clientes;Trusted_Connection=True;");
+        SqlConnection conexion = new SqlConnection(@"Server=LAPTOP-7TTM2QIN;Database=Clientes;Trusted_Connection=True;");
 
         public int AddPackage(TouristPackage oTouristPackage)
         {

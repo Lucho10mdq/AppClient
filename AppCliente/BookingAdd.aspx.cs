@@ -16,6 +16,7 @@ namespace AppCliente
             ListClient = (ServiceClient)Session["clientList"];
             SelectCliente.DataSource = ListClient.GetAll();
             SelectCliente.DataTextField = "name";
+            SelectCliente.DataBind();
         }
     }
 }

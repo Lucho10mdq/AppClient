@@ -17,7 +17,7 @@ namespace Repository
     {
         private List<Client> ClientList = new List<Client>();
         static ClienteRepository instance = null;
-        SqlConnection conexion = new SqlConnection(@"Server=LAPTOP-4RC7FOER;Database=Clientes;Trusted_Connection=True;");
+        SqlConnection conexion = new SqlConnection(@"Server=LAPTOP-7TTM2QIN;Database=Clientes;Trusted_Connection=True;");
 
         public int Add(Client oClient)
         {

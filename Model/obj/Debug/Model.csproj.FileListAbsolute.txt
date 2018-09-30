@@ -8,3 +8,8 @@ C:\Users\Lucho-Pc\Documents\Practica Profesional\Web\AppClient\Model\bin\Debug\M
 C:\Users\Lucho-Pc\Documents\Practica Profesional\Web\AppClient\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
 C:\Users\Lucho-Pc\Documents\Practica Profesional\Web\AppClient\Model\obj\Debug\Model.dll
 C:\Users\Lucho-Pc\Documents\Practica Profesional\Web\AppClient\Model\obj\Debug\Model.pdb
+C:\Users\luis_\Documents\Practica Profesional\Web\AppClient\Model\bin\Debug\Model.dll
+C:\Users\luis_\Documents\Practica Profesional\Web\AppClient\Model\bin\Debug\Model.pdb
+C:\Users\luis_\Documents\Practica Profesional\Web\AppClient\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\luis_\Documents\Practica Profesional\Web\AppClient\Model\obj\Debug\Model.dll
+C:\Users\luis_\Documents\Practica Profesional\Web\AppClient\Model\obj\Debug\Model.pdb
